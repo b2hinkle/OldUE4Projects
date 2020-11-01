@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FPS.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E08BF9A1-C230-4C3E-8C82-00DB55184061}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPSServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{70E607B8-BE8D-43F7-B4BD-6A394C85FE02}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FPS">
+      <UniqueIdentifier>{99FFE616-AD3F-416B-BAD5-5D13904C51FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPS\FPS.Build.cs">
+      <Filter>Source\FPS</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPS\FPS.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPS\FPS.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Private">
+      <UniqueIdentifier>{E584CB78-310B-4E38-9235-0F88A1D1185D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\BaseCharacter.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\BaseHUD.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\FPSCharacter.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\FPSGameMode.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\FPSPlayerState.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\MainMenu.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\MenuGameMode.cpp">
+      <Filter>Source\FPS\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem">
+      <UniqueIdentifier>{9CE89DA1-D50A-4656-92E4-0EBD323C76FB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\FPSAbilitySystemComponent.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem\Abilities">
+      <UniqueIdentifier>{FE8E97D8-D1C4-4D1E-9D22-98F86C1568F8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Abilities\FPSGameplayAbility.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Abilities\GA_ADS.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Abilities\GA_Fire.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Abilities\GA_SetPreviousWeaponAsCurrent.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem\AttributeSets">
+      <UniqueIdentifier>{FA124D5B-20A6-414E-8F17-30F1CF37CC18}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\FPSAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\FPSCharacterAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\MeleeWeaponAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\PlayerStateAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\RangedWeaponAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\AttributeSets</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem\Cues">
+      <UniqueIdentifier>{C48E72DD-7390-424C-AB7D-C928F9EDB167}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Cues\FPSGameplayCueNotify_Actor.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Cues\FPSGameplayCueNotify_Static.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\Cues\GC_BulletTrail.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\Cues</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem\CustomAbilityTasks">
+      <UniqueIdentifier>{EF587D1E-F6AD-4B3A-B307-CCE2CC424336}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\CustomAbilityTasks\FPSAbilityTask.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\CustomAbilityTasks\GAT_ADS.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\CustomAbilityTasks\GAT_Fire.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\CustomAbilityTasks\GAT_SetCurrentWeapon.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AbilitySystem\CustomExecutionCalculations">
+      <UniqueIdentifier>{C91811AC-D66A-4D95-AFD6-E10D0C96DDEC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AbilitySystem\CustomExecutionCalculations\FireExecutionCalculation.cpp">
+      <Filter>Source\FPS\Private\AbilitySystem\CustomExecutionCalculations</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\ActorComponents">
+      <UniqueIdentifier>{D120F16E-92BA-42DF-959F-67DBEECF4757}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\ActorComponents\Inventory.cpp">
+      <Filter>Source\FPS\Private\ActorComponents</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\AnimationInstances">
+      <UniqueIdentifier>{60643EAE-82C4-4405-B86A-0E6A27F92217}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\AnimationInstances\BaseAnimInstance.cpp">
+      <Filter>Source\FPS\Private\AnimationInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AnimationInstances\FPSCharacterAnimInstance.cpp">
+      <Filter>Source\FPS\Private\AnimationInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AnimationInstances\FPSSoldierAnimInstance.cpp">
+      <Filter>Source\FPS\Private\AnimationInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\AnimationInstances\TPSSoldierAnimInstance.cpp">
+      <Filter>Source\FPS\Private\AnimationInstances</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\Essentials">
+      <UniqueIdentifier>{29B161DA-C7AB-4F42-8C9F-E376A6E35B0B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\Essentials\FPSPlayerController.cpp">
+      <Filter>Source\FPS\Private\Essentials</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\Interfaces">
+      <UniqueIdentifier>{042A7C8B-06A4-42AC-8157-7732F2067BA5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\Interfaces\Equiptable.cpp">
+      <Filter>Source\FPS\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\Interfaces\Interactable.cpp">
+      <Filter>Source\FPS\Private\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\UI">
+      <UniqueIdentifier>{AE19D88F-D69F-4A11-A609-9BFED1DAF2C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\UI\BaseFPSWidget.cpp">
+      <Filter>Source\FPS\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\UI\FPSCharacterHUD.cpp">
+      <Filter>Source\FPS\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\UI\WeaponInfoWidget.cpp">
+      <Filter>Source\FPS\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Private\Weapons">
+      <UniqueIdentifier>{2ED636C4-43C6-4117-805D-1BBD7ECEB96C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPS\Private\Weapons\AR4.cpp">
+      <Filter>Source\FPS\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\Weapons\BaseWeapon.cpp">
+      <Filter>Source\FPS\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\Weapons\M1911.cpp">
+      <Filter>Source\FPS\Private\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPS\Private\Weapons\RangedWeapon.cpp">
+      <Filter>Source\FPS\Private\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPS\Public">
+      <UniqueIdentifier>{D16C77F6-7B96-419B-8CD4-04525B4197B7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\BaseCharacter.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\BaseHUD.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\FPSCharacter.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\FPSGameMode.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\FPSPlayerState.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\MainMenu.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\MenuGameMode.h">
+      <Filter>Source\FPS\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem">
+      <UniqueIdentifier>{2E7D504B-0223-4DB8-A15A-6A709C49BEAC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\FPSAbilitySystemComponent.h">
+      <Filter>Source\FPS\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem\Abilities">
+      <UniqueIdentifier>{BA5B3698-8644-4FC9-9370-60F5A6471AB9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Abilities\FPSGameplayAbility.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Abilities\GA_ADS.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Abilities\GA_Fire.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Abilities\GA_SetPreviousWeaponAsCurrent.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem\AttributeSets">
+      <UniqueIdentifier>{70A7E5C8-6292-4BF3-AD79-102B1EDFF373}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\FPSAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\FPSCharacterAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\MeleeWeaponAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\PlayerStateAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\RangedWeaponAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\AttributeSets\WeaponAttributeSet.h">
+      <Filter>Source\FPS\Public\AbilitySystem\AttributeSets</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem\Cues">
+      <UniqueIdentifier>{C6307447-7112-4C22-9DF9-528F0A8C468F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Cues\FPSGameplayCueNotify_Actor.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Cues\FPSGameplayCueNotify_Static.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\Cues\GC_BulletTrail.h">
+      <Filter>Source\FPS\Public\AbilitySystem\Cues</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem\CustomAbilityTasks">
+      <UniqueIdentifier>{4D479BFF-61FE-4C1E-9423-E9D077A7C05B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\CustomAbilityTasks\FPSAbilityTask.h">
+      <Filter>Source\FPS\Public\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\CustomAbilityTasks\GAT_ADS.h">
+      <Filter>Source\FPS\Public\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\CustomAbilityTasks\GAT_Fire.h">
+      <Filter>Source\FPS\Public\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\CustomAbilityTasks\GAT_SetCurrentWeapon.h">
+      <Filter>Source\FPS\Public\AbilitySystem\CustomAbilityTasks</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AbilitySystem\CustomExecutionCalculations">
+      <UniqueIdentifier>{CC013672-538E-4053-A208-69D146BF8150}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AbilitySystem\CustomExecutionCalculations\FireExecutionCalculation.h">
+      <Filter>Source\FPS\Public\AbilitySystem\CustomExecutionCalculations</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\ActorComponents">
+      <UniqueIdentifier>{AAB20F0B-DDF6-4718-9644-A2759D136C6D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\ActorComponents\Inventory.h">
+      <Filter>Source\FPS\Public\ActorComponents</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\AnimationInstances">
+      <UniqueIdentifier>{631DC758-0A35-4712-B83E-225CCFC2F5C8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\AnimationInstances\BaseAnimInstance.h">
+      <Filter>Source\FPS\Public\AnimationInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AnimationInstances\FPSCharacterAnimInstance.h">
+      <Filter>Source\FPS\Public\AnimationInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AnimationInstances\FPSSoldierAnimInstance.h">
+      <Filter>Source\FPS\Public\AnimationInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\AnimationInstances\TPSSoldierAnimInstance.h">
+      <Filter>Source\FPS\Public\AnimationInstances</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\Essentials">
+      <UniqueIdentifier>{5D3027AD-9113-436E-AD4B-9B7EE3E7D1FD}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\Essentials\FPSPlayerController.h">
+      <Filter>Source\FPS\Public\Essentials</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\Interfaces">
+      <UniqueIdentifier>{85A7CB08-DB96-4B2C-A6FF-4D71563A72EE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\Interfaces\Equiptable.h">
+      <Filter>Source\FPS\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\Interfaces\Interactable.h">
+      <Filter>Source\FPS\Public\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\UI">
+      <UniqueIdentifier>{D2084155-9ED9-4AC7-95C7-68B591C51A3A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\UI\BaseFPSWidget.h">
+      <Filter>Source\FPS\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\UI\FPSCharacterHUD.h">
+      <Filter>Source\FPS\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\UI\WeaponInfoWidget.h">
+      <Filter>Source\FPS\Public\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPS\Public\Weapons">
+      <UniqueIdentifier>{A7DC366C-43B0-42F3-93B5-B76647A4F3B4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPS\Public\Weapons\AR4.h">
+      <Filter>Source\FPS\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\Weapons\BaseWeapon.h">
+      <Filter>Source\FPS\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\Weapons\M1911.h">
+      <Filter>Source\FPS\Public\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPS\Public\Weapons\RangedWeapon.h">
+      <Filter>Source\FPS\Public\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

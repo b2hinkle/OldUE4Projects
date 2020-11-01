@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FPS.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\b2hin\Documents\UE\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\WeaponAttributeSet.cpp.obj"
+"C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\Module.FPS.cpp.obj"
+"C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\Module.FPS.gen.cpp.obj"
+"C:\Users\b2hin\Documents\UE\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Intermediate\Build\Win64\UE4Editor\Development\FPS\UE4Editor-FPS.lib"
+/INCLUDE:IMPLEMENT_MODULE_FPS

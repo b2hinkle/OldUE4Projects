@@ -1,0 +1,19 @@
+{
+	"Targets": [
+		{
+			"Name": "FPS",
+			"Path": "C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSEditor",
+			"Path": "C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPSEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "FPSServer",
+			"Path": "C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPSServer.Target.cs",
+			"Type": "Server"
+		}
+	]
+}

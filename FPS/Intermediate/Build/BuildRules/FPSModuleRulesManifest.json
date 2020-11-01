@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPS\\FPS.Build.cs",
+		"C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPS.Target.cs",
+		"C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPSEditor.Target.cs",
+		"C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\FPS\\Source\\FPSServer.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}

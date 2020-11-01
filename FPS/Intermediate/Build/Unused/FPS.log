@@ -1,0 +1,40 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\b2hin\Desktop\OldUE4Projects).
+  Invalidating makefile for FPSEditor (working set of source files changed)
+  Building FPSEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+  [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+  [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+  [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+  [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+  [Upgrade]
+  [Adaptive unity build] Excluded from FPS unity file: WeaponAttributeSet.cpp
+  Building 5 actions with 12 processes...
+    [1/5] WeaponAttributeSet.cpp
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(25): error C2065: 'bmbkhgjmhgmghhbmb': undeclared identifier
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(29): error C2275: 'FDoRepLifetimeParams': illegal use of this type as an expression
+    C:\Users\b2hin\Documents\UE\Engine\Source\Runtime\Engine\Public\Net\UnrealNetwork.h(66): note: see declaration of 'FDoRepLifetimeParams'
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(29): error C2146: syntax error: missing ')' before identifier 'LocalDoRepParams'
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(29): error C2065: 'LocalDoRepParams': undeclared identifier
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(30): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(31): error C2059: syntax error: '}'
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(31): error C2143: syntax error: missing ';' before '}'
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(34): error C2143: syntax error: missing ';' before '{'
+C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Private\AbilitySystem\AttributeSets\WeaponAttributeSet.cpp(34): error C2447: '{': missing function header (old-style formal list?)
+    [2/5] Module.FPS.cpp
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/AbilitySystem/CustomAbilityTasks/GAT_SetCurrentWeapon.cpp(46): warning C4458: declaration of 'index' hides class member
+    C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Public\AbilitySystem\CustomAbilityTasks/GAT_SetCurrentWeapon.h(29): note: see declaration of 'UGAT_SetCurrentWeapon::index'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/AbilitySystem/CustomAbilityTasks/GAT_SetCurrentWeapon.cpp(60): warning C4458: declaration of 'WeaponToEquip' hides class member
+    C:\Users\b2hin\Desktop\OldUE4Projects\FPS\Source\FPS\Public\AbilitySystem\CustomAbilityTasks/GAT_SetCurrentWeapon.h(30): note: see declaration of 'UGAT_SetCurrentWeapon::WeaponToEquip'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/Essentials/FPSPlayerController.cpp(42): warning C4458: declaration of 'Character' hides class member
+    C:\Users\b2hin\Documents\UE\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/FPSCharacter.cpp(188): warning C4996: 'UAbilitySystemComponent::AddDefaultSubobjectSet': AddDefaultSubobjectSet is deprecated. Use AddAttributeSetSubobject instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Users\b2hin\Documents\UE\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h(126): note: see declaration of 'UAbilitySystemComponent::AddDefaultSubobjectSet'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/FPSCharacter.cpp(192): warning C4996: 'UAbilitySystemComponent::AddDefaultSubobjectSet': AddDefaultSubobjectSet is deprecated. Use AddAttributeSetSubobject instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Users\b2hin\Documents\UE\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h(126): note: see declaration of 'UAbilitySystemComponent::AddDefaultSubobjectSet'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/Weapons/BaseWeapon.cpp(131): warning C4996: 'UAbilitySystemComponent::AddDefaultSubobjectSet': AddDefaultSubobjectSet is deprecated. Use AddAttributeSetSubobject instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Users\b2hin\Documents\UE\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h(126): note: see declaration of 'UAbilitySystemComponent::AddDefaultSubobjectSet'
+C:/Users/b2hin/Desktop/OldUE4Projects/FPS/Source/FPS/Private/Weapons/BaseWeapon.cpp(136): warning C4996: 'UAbilitySystemComponent::AddDefaultSubobjectSet': AddDefaultSubobjectSet is deprecated. Use AddAttributeSetSubobject instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Users\b2hin\Documents\UE\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h(126): note: see declaration of 'UAbilitySystemComponent::AddDefaultSubobjectSet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command "chcp 65001 >NUL && C:\Users\b2hin\Documents\UE\Engine\Build\BatchFiles\Build.bat -Target="FPSEditor Win64 Development -Project=\"C:\Users\b2hin\Desktop\OldUE4Projects\FPS\FPS.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild" exited with code 6.
