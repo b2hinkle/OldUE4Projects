@@ -1,0 +1,19 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\b2hin\Desktop\OldUE4Projects).
+  Building MovementLabEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+  [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+  [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+  [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+  [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in MovementLabEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+  [Upgrade]
+  Building 4 actions with 12 processes...
+    [1/4] MovementLabCharacterMovementComp.cpp
+    [2/4] UE4Editor-MovementLab.lib
+       Creating library C:\Users\b2hin\Desktop\OldUE4Projects\MovementLab-master\Intermediate\Build\Win64\UE4Editor\Development\MovementLab\UE4Editor-MovementLab.lib and object C:\Users\b2hin\Desktop\OldUE4Projects\MovementLab-master\Intermediate\Build\Win64\UE4Editor\Development\MovementLab\UE4Editor-MovementLab.exp
+    [3/4] UE4Editor-MovementLab.dll
+       Creating library C:\Users\b2hin\Desktop\OldUE4Projects\MovementLab-master\Intermediate\Build\Win64\UE4Editor\Development\MovementLab\UE4Editor-MovementLab.suppressed.lib and object C:\Users\b2hin\Desktop\OldUE4Projects\MovementLab-master\Intermediate\Build\Win64\UE4Editor\Development\MovementLab\UE4Editor-MovementLab.suppressed.exp
+    [4/4] MovementLabEditor.target
+  Total time in Parallel executor: 2.56 seconds
+  Total execution time: 4.47 seconds

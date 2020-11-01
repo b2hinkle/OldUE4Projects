@@ -1,0 +1,32 @@
+		TArray<FHitResult> FloorSweepHitResults;
+		FVector FloorSweepStart = GetCapsuleComponent()->GetComponentLocation() - GetActorRotation().RotateVector(FVector(0.f, 0.f, GetCapsuleComponent()->GetScaledCapsuleHalfHeight() - 100.f));
+		FVector FloorSweepEnd = FloorSweepStart - GetActorRotation().RotateVector(FVector(0.f, 0.f, 1000.f));
+		
+		FCollisionQueryParams FloorCollisionQueryParams = FCollisionQueryParams(TEXT("FloorCollisionQueryParams"), false, this);
+		if (GetWorld()->LineTraceMultiByChannel(FloorSweepHitResults, FloorSweepStart, FloorSweepEnd, ECC_WorldStatic, FloorCollisionQueryParams))
+		{
+			for (int i = 0; i < FloorSweepHitResults.Num(); i++)
+			{
+				AActor* HitActor = FloorSweepHitResults[i].GetActor();
+
+				//if (HitActor == GetCharacterMovement()->GetMovementBase()->GetAttachmentRootActor())
+				{
+					//UKismetSystemLibrary::PrintString(this, GetNameSafe(HitActor) + " ::: Normal = " + FloorSweepHitResults[i].Normal.ToString());
+
+					UKismetMathLibrary::DegAcos(FVector::DotProduct(FloorSweepHitResults[i].Normal, FVector::UpVector));
+
+					//SetActorRotation(UKismetMathLibrary::RInterpTo(GetActorRotation(), GetVelocity().ToOrientationRotator(), UGameplayStatics::GetWorldDeltaSeconds(this), 500));
+					//SetActorRotation(FRotator(GetActorRotation().Pitch, GetVelocity().ToOrientationRotator().Yaw, GetActorRotation().Roll));
+
+					SetActorRotation(UKismetMathLibrary::MakeRotFromZX(FloorSweepHitResults[i].Normal, GetActorForwardVector()));
+					SetActorLocation(FloorSweepHitResults[i].ImpactPoint + (GetActorUpVector() * (GetCapsuleComponent()->GetScaledCapsuleHalfHeight() + 2)));
+					AddMovementInput(FVector::VectorPlaneProject(Direction, FloorSweepHitResults[i].Normal), Value);
+					//GetCharacterMovement()->AddImpulse(FVector::VectorPlaneProject(FVector(FloorSweepHitResults[i].Normal.X, FloorSweepHitResults[i].Normal.Y, UKismetMathLibrary::DegSin(FloorSweepHitResults[i].Normal.Z)), FloorSweepHitResults[i].Normal) * (FVector::DotProduct(FloorSweepHitResults[i].Normal, FVector::UpVector) * 100 * UGameplayStatics::GetWorldDeltaSeconds(this)) , true);
+					GetCharacterMovement()->SetGroundMovementMode(EMovementMode::MOVE_Flying);
+					GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+					GetCharacterMovement()->FindFloor(GetCharacterMovement()->UpdatedComponent->GetComponentLocation(), GetCharacterMovement()->CurrentFloor, false);
+					GetCharacterMovement()->AdjustFloorHeight();
+					GetCharacterMovement()->SetBaseFromFloor(GetCharacterMovement()->CurrentFloor);
+				}
+			}
+		}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MovementLab",
+			"Path": "C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\MovementLab-master\\Source\\MovementLab.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MovementLabEditor",
+			"Path": "C:\\Users\\b2hin\\Desktop\\OldUE4Projects\\MovementLab-master\\Source\\MovementLabEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

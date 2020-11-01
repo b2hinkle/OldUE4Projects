@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MovementLab.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F385CD8D-F4CB-4B5A-8F05-AD0D2C91D8F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MovementLab.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MovementLabEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\InfiniteAngleTest1.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FDBCDC88-94F8-4B47-AE3E-9BB7FF1A18C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MovementLab">
+      <UniqueIdentifier>{A91292BF-3BA3-4E61-B9B5-FC776E3D2913}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MovementLab\MovementLab.Build.cs">
+      <Filter>Source\MovementLab</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MovementLab\MovementLab.cpp">
+      <Filter>Source\MovementLab</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MovementLab\MovementLab.h">
+      <Filter>Source\MovementLab</Filter>
+    </ClInclude>
+    <Filter Include="Source\MovementLab\Private">
+      <UniqueIdentifier>{6ACB912A-FA08-4E60-AAAC-5E23D82288D3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MovementLab\Private\MovementLabGameMode.cpp">
+      <Filter>Source\MovementLab\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MovementLab\Private\Characters">
+      <UniqueIdentifier>{493AB351-F6A0-45D5-AD1A-CBD68A361808}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MovementLab\Private\Characters\InfiniteAngleCharacter.cpp">
+      <Filter>Source\MovementLab\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MovementLab\Private\Characters\MovementLabCharacterClawShot.cpp">
+      <Filter>Source\MovementLab\Private\Characters</Filter>
+    </ClCompile>
+    <Filter Include="Source\MovementLab\Private\Player">
+      <UniqueIdentifier>{1FB7C9BB-1084-4479-BCC1-26A73509931E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MovementLab\Private\Player\CharacterMovementComponentClawSh.cpp">
+      <Filter>Source\MovementLab\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MovementLab\Private\Player\MovementLabCharacter.cpp">
+      <Filter>Source\MovementLab\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MovementLab\Private\Player\MovementLabCharacterMovementComp.cpp">
+      <Filter>Source\MovementLab\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\MovementLab\Public">
+      <UniqueIdentifier>{B001B50B-06D0-4A49-AACD-380FB75BD213}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MovementLab\Public\MovementLabGameMode.h">
+      <Filter>Source\MovementLab\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\MovementLab\Public\Characters">
+      <UniqueIdentifier>{0D16CD79-B7F5-46E9-B5AB-8D3A666991B6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MovementLab\Public\Characters\InfiniteAngleCharacter.h">
+      <Filter>Source\MovementLab\Public\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MovementLab\Public\Characters\MovementLabCharacterClawShot.h">
+      <Filter>Source\MovementLab\Public\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\MovementLab\Public\Player">
+      <UniqueIdentifier>{B8577673-76F1-4C5C-9790-69402250BAEB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MovementLab\Public\Player\CharacterMovementComponentClawSh.h">
+      <Filter>Source\MovementLab\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MovementLab\Public\Player\MovementLabCharacter.h">
+      <Filter>Source\MovementLab\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MovementLab\Public\Player\MovementLabCharacterMovementComp.h">
+      <Filter>Source\MovementLab\Public\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

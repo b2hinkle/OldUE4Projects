@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Target.cs" />
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Build.cs" />
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.i" />
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\ReadMe.txt" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{A7C390D0-2C76-4F03-99B7-6CFA97AD4F10}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeDLL.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{8C361384-68F5-43A5-B8D1-8A6596365169}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharp.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharpPINVOKE.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActor.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorCamera.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeElement.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLog.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterial.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Documents\UE\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeScene.cs">
+      <Filter>Public</Filter>
+    </None>
+  </ItemGroup>
+</Project>
